@@ -7,8 +7,39 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+
+	<form action="/action_page.php" method="post">
+		<label for="name">Name</labal>
+		<input type="text" id="name" placeholder="Name" required>
+			
+		<label for="email">Email</labal>
+		<input type="email" id="email" placeholder="Email" required>
+		
+		<label for="gender_m, gender_f">Gender</labal>
+		<input type="radio" id="gender_m, gender_f"  required>
+					
+		<label for="cars">Cars</labal>
+		<select id="cars"> 
+			<option value="cars">Volvo</option> 
+			<option value="cars">Jeep</option> 
+			<option value="cars">RR</option> 
+			<option value="cars">MG</option> 
+		</select>
+			
+		<label for="age">Age</labal>
+		<input type="number" id="age" placeholder="age" required>
+				
+		<label for="dob">DOB</labal>
+		<input type="date" id="dob" required>
+		
+		<label for="tel">Phone Number</labal>
+		<input type="tel" id="tel" placeholder="xxx-xxx-xxxx">
+		<label for="password">Password</labal>
+		<input type="password" id="password" placeholder="Password" required>
+		<label for="tos">I agree to the TOS</labal>
+		<input type="checkbox" id="tos" required>
+	</form>
+	<script type="text/javascript" src="./script.js">
 </script>
 
 </body>
